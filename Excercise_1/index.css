@@ -1,0 +1,57 @@
+*{
+    box-sizing:content-box;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-image: url("mobile-0819.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: contain;
+    background-color: #000;
+}
+
+h1, h5{
+    background-color: #000;
+    color: white;
+    text-align: center;
+}
+
+.head_content {
+    padding: 20px;
+}
+
+.content{
+    image-rendering: auto;
+}
+a{
+    text-decoration: none;
+}
+#box {
+    width:20%;
+    float:left;
+}
+#icon{
+    width:20%;
+    float:right;
+    margin-right: 0;
+}
+
+article{
+    position: absolute;
+}
+
+.small_div{
+    margin: 8em;
+    padding: 5px;
+    background-color: #000;
+    border: 5px solid #232222;
+    border-radius: 20px;
+    min-height: 100px;
+    width: auto;
+    display:inline-flex;
+}
